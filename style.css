@@ -1,0 +1,169 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("assets/fonts/DMSans-VariableFont_opsz\,wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 70.5%;
+}
+
+body {
+  font-family: "MyCustomFont", Arial, sans-serif;
+}
+
+.grid-bento {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, auto);
+  gap: 1.8rem; /* Adjust the gap between grid items */
+  padding: 20px;
+}
+
+.item {
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.item1 {
+  background-color: hsl(31, 66%, 93%);
+  grid-column: 1 / 2;
+  text-align: center;
+  grid-row: 1 / span 3;
+  color: hsl(0, 0%, 7%);
+  width: 100%;
+}
+.hightlight-quicker {
+  color: hsl(256, 67%, 59%);
+}
+.Create-poste-img {
+  margin-top: 1.2rem;
+  width: 85%;
+}
+
+.item2 {
+  background-color: hsl(256, 67%, 59%);
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4rem;
+  /* text-align: center; */
+}
+.stars-img {
+  width: 25%;
+}
+.hightlight-social {
+  color: hsl(39, 100%, 71%);
+}
+
+.item3 {
+  background-color: hsl(254, 88%, 90%);
+  grid-column: 4 / 5;
+  grid-row: 1 / 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  overflow: hidden;
+}
+.schedule-posts {
+  width: 100%;
+  margin-right: -18.5rem;
+  height: 24rem;
+}
+.schedule-subheading {
+  color: hsl(0, 0%, 7%);
+}
+.schedule-heading {
+  color: hsl(0, 0%, 7%);
+}
+
+.item4 {
+  background-color: hsl(39, 100%, 71%);
+  grid-column: 1 / 2;
+  grid-row: 4 / span 3;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  justify-content: center;
+  align-items: center;
+}
+.ia-content-heading {
+  color: hsl(0, 0%, 7%);
+}
+.ia-content-img {
+  width: 80%;
+  margin-top: 1.8rem;
+}
+.item5 {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 7%);
+  font-size: 3.6rem;
+  font-weight: 500;
+  grid-row: 3 / span 2;
+  grid-column: 2 / span 1;
+}
+.multiple-platform {
+  width: 90%;
+}
+.heading-audience {
+  font-size: 4.8rem;
+}
+.audiance-img {
+  width: 60%;
+  align-self: center;
+  /* margin-top: 1.9rem;
+   */
+}
+.item6 {
+  background-color: hsl(39, 100%, 71%);
+  grid-column: 3 / span 1;
+  color: hsl(0, 0%, 7%);
+  font-size: 2.4rem;
+  grid-row: 3 / span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.schedule-img {
+  width: 90%;
+  align-self: center;
+}
+
+.item7 {
+  background-color: hsl(0, 0%, 100%);
+  grid-column: 2 / span 1;
+  grid-row: 5 / span 2;
+  color: hsl(0, 0%, 7%);
+  display: flex;
+  flex-direction: column;
+}
+
+.item8 {
+  background-color: hsl(256, 67%, 59%);
+  grid-column: 3 / span 2;
+  grid-row: 5 / span 2;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grow-followers-heading {
+  color: hsl(0, 0%, 100%);
+}
+.grow-followers {
+  width: 50%;
+}
